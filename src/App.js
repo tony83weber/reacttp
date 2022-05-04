@@ -6,6 +6,7 @@ import Inicio from './components/pagina/Inicio';
 import Item from './components/pagina/Item';
 import CartWidget from './components/CartWidget';
 
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
         <Switch>
           <Route path='/Inicio' component={Inicio}/>
           <Route path='/Item'  component={Item}/>
-          
+
         </Switch>
       </Router>
     </div>
