@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './components/navegacion/Navbar';
 import Inicio from './components/pagina/Inicio';
 import Item from './components/pagina/Item';
+import CartWidget from './components/CartWidget';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path='/Inicio' component={Inicio}/>
           <Route path='/Item'  component={Item}/>
+          
         </Switch>
       </Router>
     </div>

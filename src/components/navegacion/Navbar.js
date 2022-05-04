@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import CartWidget from '../CartWidget';
 
 const navbar = () => {
   return (
@@ -21,6 +22,9 @@ const navbar = () => {
         <li className="nav-item">
         <Link className="nav-link" to= '/item'>Item</Link>
         </li>
+       <li className="myCard">
+          <CartWidget/>
+         </li>
        </ul>
     </div>
   </div>
